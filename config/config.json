@@ -1,0 +1,165 @@
+{
+  "site": {
+    "title": "BeamPad",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "48",
+    "logo_text": "BeamPad"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Connect Wallet",
+    "link": "#"
+  },
+  
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "copyright": "© 2023 Beampad | All Rights Reserved"
+  },
+
+  "metadata": {
+    "meta_author": "Beampad",
+    "meta_image": "",
+    "meta_description": "Beampad"
+  },
+
+  "menuItems":[
+    {
+    "CategoryId":"1",
+    "CategoryTitle" :"Live IRO"
+  },
+  {
+    "CategoryId":"2",
+    "CategoryTitle" :"Completed IRO"
+  },
+  {
+    "CategoryId":"3",
+    "CategoryTitle" :"Exited Position"
+  },   {
+    "CategoryId":"4",
+    "CategoryTitle" :"Upcoming IRO"
+  }
+  ],  
+   
+  "listingdata":[
+  {
+    "id":"1",
+    "listing_type":"Live IRO",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Core",
+     "ListingImage":"/images/property-1.jpeg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/core.png"
+  },
+  {
+    "id":"2",
+    "listing_type":"Live IRO",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Core",
+     "ListingImage":"/images/property-2.jpg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/core.png"
+  },
+  {
+    "id":"3",
+    "listing_type":"Completed IRO",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Partner",
+     "ListingImage":"/images/property-1.jpeg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/partner.png"
+  },
+  {
+    "id":"4",
+    "listing_type":"Live IRO",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Core",
+     "ListingImage":"/images/property-2.jpg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/core.png"
+  },
+  {
+    "id":"5",
+    "listing_type":"Exited Position",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Partner",
+     "ListingImage":"/images/property-2.jpg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/partner.png"
+  },
+  {
+    "id":"6",
+    "listing_type":"Live IRO",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Core",
+     "ListingImage":"/images/property-2.jpg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/core.png"
+  },
+  {
+    "id":"7",
+    "listing_type":"Upcoming IRO",
+     "title":"SC Plus- Silicon Oasis Property Identified",
+     "location":"Dubai, United Arab Emirates",
+     "bhk":"3 BHK apartment",
+     "DividendPercentage":"8.32%",
+     "scheme":"Monthly Frequently",
+     "totalSupply":"5000 REATs",
+     "reats":"608.90",
+     "OfferingType":"Partner",
+     "ListingImage":"/images/property-1.jpeg",
+     "days":"20 days left",
+     "typeOfferingIcon":"/images/partner.png"
+  }
+  ]
+}
+
+

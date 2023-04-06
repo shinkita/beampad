@@ -1,0 +1,31 @@
+{
+  "colors": {
+    
+    "default": {
+      "theme_color": {
+        "primary": "#DC2751",
+        "body": "#fff",
+        "border": "#e9e9e9",
+        "theme_light": "#FBEDF0"
+        
+      },
+      "text_color": {
+        "default": "#222",
+        "dark": "#000",
+        "main":"#DC2751"  ,
+        "grayshade":"#8F878"
+      }
+    }
+  },
+  "fonts": {
+    "font_family": {
+      "primary": "Montserrat:wght@300;400;700",
+      "primary_type": "sans-serif"
+    },
+    "font_size": {
+      "base": "14",
+      "scale": "1.250",
+      "medium":"10"
+    }
+  }
+}

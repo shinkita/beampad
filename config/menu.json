@@ -1,0 +1,75 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Browse Reats",
+      "url": "/blogs"
+    },
+    
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+    
+  ],
+  "footer": [
+    {
+      "name": "Quick Links",
+      "menu": [
+        {
+          "text": "About us",
+          "url": "/about"
+        },
+        {
+          "text": "Story",
+          "url": "#"
+        },
+        {
+          "text": "Story",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "menu": [
+        {
+          "text": "Features",
+          "url": "#"
+        },
+        {
+          "text": "Platform",
+          "url": "#"
+        },
+        {
+          "text": "Our Team",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Legal",
+      "menu": [
+        {
+          "text": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
