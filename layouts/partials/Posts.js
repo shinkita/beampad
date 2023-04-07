@@ -1,20 +1,20 @@
 import config from "@config/config.json";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Listing from "./Listing";
 import Listingtabs from "./Listingtabs";
 const Posts = ({ posts }) => {
-  const [item, setItem] = useState(config.listingdata);
+  // const [item, setItem] = useState(config.listingdata);
   const { blog_folder, summary_length } = config.settings;
   const [openTab, setOpenTab] = React.useState(1);
 
-  const filterItem = (curcat) => {
-    const newItem = config.menuItems.filter((newVal) => {
-      return newVal.category === curcat;
-    });
-    setItem(newItem);
-  };
+  // const filterItem = (curcat) => {
+  //   const newItem = config.menuItems.filter((newVal) => {
+  //     return newVal.category === curcat;
+  //   });
+  //   setItem(newItem);
+  // };
   // const filteredItems = config.menuItems.filter((item) => {
   //   if (activeTab === 'all') {
   //     console.log("All")
@@ -25,21 +25,42 @@ const Posts = ({ posts }) => {
      
   //   }
   // });
+
+  const allCategories = ['All', ...new Set(config.listingdata.map(item => item.listing_type))];
+const items =config.listingdata;
+  console.log(allCategories);
+  const [menuItem, setMenuItem] = useState(items);
+  const [buttons, setButtons] = useState(allCategories);
+
+  const filter = (button) => {
+    if (button === 'All') {
+      setMenuItem(items);
+      return;
+    }
+  
+    const filteredData = items.filter(item => item.listing_type === button);
+    setMenuItem(filteredData);
+  };
+  
+  useEffect(() => {
+    console.log(menuItem);
+  }, [menuItem])
+
   return (
     <div className="container pb-0">
      <div className="row pb-15 pt-10">
      {/* <Listingtabs activeTab={activeTab} onTabClick={setActiveTab} /> */}
 
-    
-          <Listingtabs
+    <Listingtabs  button={buttons} filter={filter}/>
+          {/* <Listingtabs
             filterItem={filterItem}
             setItem={setItem}
             menuItems={config.menuItems}
-          />
+          /> */}
           </div>
           <div className="row ListingData pt-10">
-       
-        <Listing item={item} />  
+      
+        <Listing menuItem={menuItem} />  
           {/* {posts.slice(1).map((post, i) => (
         <div key={`key-${i}`} className="col-12 mb-8 sm:col-6 lg:col-4">
           {post.frontmatter.image && (

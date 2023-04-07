@@ -11,24 +11,19 @@ banner:
 feature: 
   title: Something You Need To Know
   features:
-  - name: "Clean Code"
+  - name: "Decentralised  Platform "
     icon: "/images/code.svg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+  - name: " Based on the ERC1155 tOKEN "
     icon: "/images/oop.svg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+  - name: "Based on the ERC1155 tOKEN"
     icon: "/images/user-clock.svg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
+  - name: "Based on the ERC1155 tOKEN"
     icon: "/images/love.svg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  
 
 # services
 services:
@@ -74,11 +69,6 @@ services:
       label: Check it out
       link: /contact
 
-# workflow
-workflow: 
-  title: "Experience the best workflow with us"
-  image: "/images/banner.svg"
-  description: ""
 
 # call_to_action
 call_to_action:

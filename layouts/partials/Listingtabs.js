@@ -1,12 +1,25 @@
 import React from "react";
 import config from "@config/config.json";
  
-const menuItems = [...new Set(config.menuItems.map((Val) => Val.CategoryTitle))];
+// const menuItems = [...new Set(config.menuItems.map((Val) => Val.CategoryTitle))];
 
-const Listingtabs = ({setItem, menuItems }) => {
+
+const Listingtabs = ({button,filter}) => {
    return (
     <>
-   <div className="d-flex justify-content-center">
+
+<div className="d-flex justify-content-center">
+      {button.map((cat, i) => {
+        return (
+          <button onClick={() => filter(cat)} className="btntabs active btn-dark text-default p-1 px-2 mx-5 btn fw-bold" key={i}>
+            {cat}
+          </button>
+        );
+      })}
+    </div>
+
+
+   {/* <div className="d-flex justify-content-center">
       {config.menuItems.map((Val,Id) => {
   return (
     <button
@@ -25,43 +38,10 @@ const Listingtabs = ({setItem, menuItems }) => {
           All
         </button>
 
-         </div> 
+         </div>  */}
 
 
-              {/*New Code*/}
-
-      {/* <div className="tabs d-flex justify-content-center">
-      <button
-        className={activeTab === 'All' ? 'active btn-dark text-primary p-1 px-2 mx-5 btn fw-bold' : 'btn-dark p-1 px-2 mx-5 btn fw-bold text-default'}
-        onClick={() => onTabClick('All')}
-      >
-        All
-      </button>
-      <button
-        className={activeTab === 'Live IRO' ? 'active btn-dark text-primary p-1 px-2 mx-5 btn fw-bold' : 'btn-dark p-1 px-2 mx-5 btn fw-bold text-default'}
-        onClick={() => onTabClick('Live IRO')}
-      >
-        Live IRO
-      </button> 
-      <button
-        className={activeTab === 'Completed IRO' ? 'active btn-dark text-primary p-1 px-2 mx-5 btn fw-bold' : 'btn-dark p-1 px-2 mx-5 btn fw-bold text-default'}
-        onClick={() => onTabClick('Completed IRO')}
-      >
-       Completed IRO
-      </button>
-      <button
-        className={activeTab === 'Exited Position' ? 'active btn-dark text-primary p-1 px-2 mx-5 btn fw-bold' : 'btn-dark p-1 px-2 mx-5 btn fw-bold text-default'}
-        onClick={() => onTabClick('Exited Position')}
-      >
-        Exited Position
-      </button>
-      <button
-        className={activeTab === 'Upcoming IRO' ? 'active btn-dark text-primary p-1 px-2 mx-5 btn fw-bold' : 'btn-dark p-1 px-2 mx-5 btn fw-bold text-default'}
-        onClick={() => onTabClick('Upcoming IRO')}
-      >
-      Upcoming IRO
-      </button>
-    </div> */}
+            
     </>
   );
 };

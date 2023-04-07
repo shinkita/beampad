@@ -180,3 +180,14 @@ position:relative;
   border-radius: 5px 50px 10px 5px;
   font-size:10px;
 }
+.btntabs:hover{
+ color:#DC2751;
+}
+.text-grayshade{
+  color:#8F8787;
+}
+@media screen and (min-width: 300px) and (max-width:720px) {
+  h2,.h2{
+font-size:16px;
+  }
+}
