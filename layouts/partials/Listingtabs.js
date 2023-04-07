@@ -11,7 +11,7 @@ const Listingtabs = ({button,filter}) => {
 <div className="d-flex justify-content-center">
       {button.map((cat, i) => {
         return (
-          <button onClick={() => filter(cat)} className="btntabs active btn-dark text-default p-1 px-2 mx-5 btn fw-bold" key={i}>
+          <button onClick={() => filter(cat)} className="btntabs active btn-dark text-default p-1 px-2 mx-5 btn fw-bold rounded-md" key={i}>
             {cat}
           </button>
         );

@@ -27,7 +27,10 @@ return (
                     width={20}
                     height={20}/>
                     </span>
-                    <span className="timer"> {Val.days}</span>
+                    <span className="timer flex items-center"> &nbsp; <Image src="/images/TimeMachine.svg"
+                    alt="icon"
+                    width={15}
+                    height={15}/>{Val.days}</span>
          </div>
          <div className="card-body listDetails">
            <h6 className="card-title text-default line-clamp-3 pt-1 pb-2">
@@ -41,17 +44,20 @@ return (
                     height={10}/> &nbsp;&nbsp;
             {Val.location} </p>
            <div className="card-text">{Val.desc}</div>
-           <p className="text-default flex line-clamp-3">
+           <p className="text-primary flex line-clamp-3">
            <Image src="/images/bed.svg"
                     alt="icon"
                     width={15}
                     height={15}/> &nbsp;&nbsp;
             {Val.bhk} </p>
-           <p className="card-text font-bold detailtext pt-1 pb-1">Dividend <span className="text-primary">{Val.DividendPercentage}</span> Starts from <span className="text-primary"> {Val.reats}</span> Reats </p>
+           <p className="card-text font-bold detailtext pt-1 pb-1 flex">Dividend <span className="text-primary"> &nbsp;{Val.DividendPercentage}</span>&nbsp; Starts from  <Image src="/images/Tether.svg"
+                    alt="icon"
+                    width={25}
+                    height={25}/><span className="text-primary"> {Val.reats}</span> &nbsp;Reats </p>
            <p className="card-text font-bold detailtext pb-1">Dividends  <span className="text-primary font-normal">{Val.scheme}</span> </p>
           <div className="flex">
-            <span className="font-bold text-grayshade">Total Supply : </span><span className="text-primary font-bold">{Val.totalSupply}</span>
-            <span> <Link className="btn bg-primary  text-white z-0 py-[2px] btnInvest ml-2" href="#" rel="">
+            <span className="font-bold text-grayshade">Total Supply :  &nbsp; </span><span className="text-primary font-bold">{Val.totalSupply}</span>
+            <span> <Link className="btn bg-primary  text-white z-0 py-[4px] btnInvest ml-2" href="#" rel="">
               Invest Now
             </Link> </span>
            </div>
