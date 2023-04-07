@@ -1,14 +1,14 @@
-import config from "@config/config.json";
-import { markdownify } from "@lib/utils/textConverter";
+// import config from "@config/config.json";
+// import { markdownify } from "@lib/utils/textConverter";
 
 const Contact = ({ data }) => {
-  const { frontmatter } = data;
-  const { title, info } = frontmatter;
-  const { contact_form_action } = config.params;
+  // const { frontmatter } = data;
+  // const { title, info } = frontmatter;
+  // const { contact_form_action } = config.params;
 
   return (
     <section className="section">
-      <div className="container">
+      {/* <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
@@ -68,7 +68,7 @@ const Contact = ({ data }) => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

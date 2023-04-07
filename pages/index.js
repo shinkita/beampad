@@ -25,7 +25,7 @@ const Home = ({ frontmatter }) => {
               <div className="items-center col-md-6 pt-20">
               <h2 className="font-bold text-primary uppercase">The Smartest Way to Invest
  in Real Estate</h2>
- <p className="mt-4 mb-2">Using the region's first DFSA-regulated real estate crowdfunding platform, you can start investing in premium rental properties.</p>
+ <p className="mt-4 mb-2">Using the region first DFSA-regulated real estate crowdfunding platform, you can start investing in premium rental properties.</p>
             <p>Watch Demo</p>             
              </div>
 
