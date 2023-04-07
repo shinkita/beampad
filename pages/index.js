@@ -26,13 +26,16 @@ const Home = ({ frontmatter }) => {
               <h2 className="font-bold text-primary uppercase">The Smartest Way to Invest
  in Real Estate</h2>
  <p className="mt-4 mb-2">Using the region first DFSA-regulated real estate crowdfunding platform, you can start investing in premium rental properties.</p>
-            <h4 className="font-bold text-primary flex item-center pt-3">Watch Demo <span>  <Image
+            <h4 className="font-bold text-primary flex item-center pt-3">Watch Demo <span> 
+               {/* <Image
                         className="ml-1"
                         src="/images/play.svg"
                         width={20}
                         height={20}
                         alt="play"
-                      /></span></h4>             
+                      /> */}
+                      
+                      </span></h4>             
              </div>
 
               <div className="items-center col-md-5">
@@ -113,7 +116,7 @@ const Home = ({ frontmatter }) => {
             </div>
             </section> */}
    
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <div className="text-center">
             <h2 className="text-primary uppercase">Operational resilience</h2>
@@ -149,7 +152,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis moles.<
               </div>
           </div>
           </div>
-          </section>
+          </section> */}
     </Base>
   );
 };
