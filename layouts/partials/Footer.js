@@ -40,8 +40,8 @@ const Footer = () => {
                 alt=""
               />
             </Link>
-            {markdownify(footer_content, "p", "mt-3 mb-6")}
-            <Social source={social} className="social-icons mb-8" />
+            {markdownify(footer_content, "p", "mt-3 mb-6 ml-4")}
+            <Social source={social} className="social-icons mb-8 ml-4" />
           </div>
         </div>
         {/* copyright */}

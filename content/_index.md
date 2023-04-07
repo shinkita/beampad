@@ -12,23 +12,23 @@ feature:
   title: Something You Need To Know
   features:
   - name: "Decentralised  Platform "
-    icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: " Based on the ERC1155 tOKEN "
-    icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Based on the ERC1155 tOKEN"
-    icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Based on the ERC1155 tOKEN"
-    icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    icon: "/images/bit.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - name: " Based on the ERC1155 Token "
+    icon: "/images/bit.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - name: "Based on the ERC1155 Token"
+    icon: "/images/bit.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - name: "Based on the ERC1155 Token"
+    icon: "/images/bit.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
   
 
 # services
 services:
   - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
@@ -79,4 +79,5 @@ call_to_action:
     enable: true
     label: "Contact Us"
     link: "/contact"
+    
 ---

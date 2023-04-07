@@ -48,7 +48,7 @@ const items =config.listingdata;
 
   return (
     <div className="container pb-0">
-     <div className="row pb-15 pt-10">
+     <div className="row pt-10">
      {/* <Listingtabs activeTab={activeTab} onTabClick={setActiveTab} /> */}
 
     <Listingtabs  button={buttons} filter={filter}/>
@@ -58,7 +58,7 @@ const items =config.listingdata;
             menuItems={config.menuItems}
           /> */}
           </div>
-          <div className="row ListingData pt-10">
+          <div className="row ListingData pt-5">
       
         <Listing menuItem={menuItem} />  
           {/* {posts.slice(1).map((post, i) => (

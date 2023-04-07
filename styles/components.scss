@@ -127,12 +127,12 @@ position:relative;
  .timer{
   background: #FBEDF0;
   border-radius: 10px;
-     padding: 6px;
+  padding: 3px 6px 3px 4px;
     font-size: 7px;
     font-weight: 300;
     color: #000;
      top: 43px;
-  left: 17px;
+  left: 15px;
   position: absolute;
   font-weight: 600;
 }
@@ -141,8 +141,8 @@ position:relative;
   border-radius: 5px;
   color: #DC2751;
   top: 10px;
-  right: 27px;
-  padding: 4px;
+  right: 15px;
+  padding: 5px;
   font-size: 10px;
   font-weight: 600;
   display: flex;
@@ -155,9 +155,9 @@ position:relative;
   border-radius: 7px;
   color: #DC2751;
   top: 10px;
-  left: 20px;
+  left: 15px;
   font-size: 9px;
-  padding: 6px;
+  padding: 5px;
   font-weight: bold;
   position: absolute;
   font-weight: 300;
@@ -181,13 +181,46 @@ position:relative;
   font-size:10px;
 }
 .btntabs:hover{
- color:#DC2751;
+ background-color:rgba(0, 0, 0, 0.12);
+ border:none;
 }
 .text-grayshade{
   color:#8F8787;
+}
+
+
+ .rounded-outer {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  
+
+}
+.rounded-inner {
+  position: absolute;
+  background:rgba(220, 39, 81, 0.25);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  top: 57%;
+  left: 57%;
+  margin: -150px 0px 0px -150px;
+
 }
 @media screen and (min-width: 300px) and (max-width:720px) {
   h2,.h2{
 font-size:16px;
   }
+.btntabs
+{
+  margin-bottom:1rem;
+}
+
+#nav-menu {
+  padding-top: 2rem;
+}
+.ltab{
+  text-align: center;
+}
 }

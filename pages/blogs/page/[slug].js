@@ -24,13 +24,13 @@ const blogPagination = ({ postIndex, posts, currentPage, pagination }) => {
           <div className="banner">
             <div className="bannerImg">
                 <Image 
-                src="/images/union.png"  alt="browseReats"
+                src="/images/bannerImg.png"  alt="browseReats"
                 height="500"
                   width="700"
                 />
           
             </div>
-            <div className="bannerTitle">
+            <div className="bannerTitle pr-2">
             {markdownify(title, "h2", "h2 text-center font-bold  text-primary")}
             </div>
           

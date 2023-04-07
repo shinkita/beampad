@@ -8,10 +8,10 @@ const Listingtabs = ({button,filter}) => {
    return (
     <>
 
-<div className="d-flex justify-content-center">
+<div className="ltabs">
       {button.map((cat, i) => {
         return (
-          <button onClick={() => filter(cat)} className="btntabs active btn-dark text-default p-1 px-2 mx-5 btn fw-bold rounded-md" key={i}>
+          <button onClick={() => filter(cat)} className="btntabs active border-none text-gray-400 bg-zinc-50 p-2 px-2 mr-5 btn rounded-md" key={i}>
             {cat}
           </button>
         );
