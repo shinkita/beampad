@@ -29,8 +29,8 @@ const Home = ({ frontmatter }) => {
             <h4 className="font-bold text-primary flex item-center pt-3">Watch Demo <span>  <Image
                         className="ml-1"
                         src="/images/play.svg"
-                        width={40}
-                        height={40}
+                        width={20}
+                        height={20}
                         alt="play"
                       /></span></h4>             
              </div>
