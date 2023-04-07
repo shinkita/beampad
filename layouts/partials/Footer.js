@@ -38,6 +38,8 @@ const Footer = () => {
                 width={config.site.logo_width}
                 height={config.site.logo_height}
                 alt=""
+                className="max-w-full h-auto footImg"
+
               />
             </Link>
             {markdownify(footer_content, "p", "mt-3 mb-6 ml-4")}
