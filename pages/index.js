@@ -17,7 +17,7 @@ const Home = ({ frontmatter }) => {
     <Base title={title}>
       {/* Banner */}
    
-          <section className="section bg-theme-light">          
+          <section className="bg-theme-light">          
         
             <div className="container">
               <div className="sliderWrapper flex justify-evenly items-center">
