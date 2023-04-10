@@ -20,7 +20,7 @@ const Header = () => {
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header className="header">
+    <header className="md:header">
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
@@ -61,7 +61,7 @@ const Header = () => {
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
-                  <li className="nav-item nav-dropdown group relative">
+                  <li className="md:nav-item nav-dropdown group relative sm:mbnav-item">
                     <span className="nav-link inline-flex items-center">
                       {menu.name}
                       <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">

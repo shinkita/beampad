@@ -14,7 +14,7 @@
     align-items: center;
 }
 .photo{
-  border-radius: 10px;
+  border-radius: 5px 5px 0 0;
 }
 // form style
 .form-inputs * {
@@ -127,11 +127,11 @@ position:relative;
  .timer{
   background: #FBEDF0;
   border-radius: 10px;
-  padding: 3px 6px 3px 4px;
-    font-size: 7px;
+  padding: 4px 6px 3px 4px;
+    font-size: 11px;
     font-weight: 300;
     color: #000;
-     top: 43px;
+     top: 53px;
   left: 15px;
   position: absolute;
   font-weight: 600;
@@ -142,8 +142,8 @@ position:relative;
   color: #DC2751;
   top: 10px;
   right: 15px;
-  padding: 5px;
-  font-size: 10px;
+  padding: 7px;
+  font-size: 11px;
   font-weight: 600;
   display: flex;
   position: absolute;
@@ -156,33 +156,32 @@ position:relative;
   color: #DC2751;
   top: 10px;
   left: 15px;
-  font-size: 9px;
-  padding: 5px;
+  font-size: 11px;
+  padding: 7px;
   font-weight: bold;
   position: absolute;
   font-weight: 300;
  
 }
 .listDetails{
- border:1px solid  #D6CECE;
- border-radius: 5px;
- padding:1em;
+  border: 1px solid rgb(225, 231, 231);
+  border-radius: 0 0 5px 5px;
+  padding:1em;
  text-transform: capitalize;
- box-shadow: 0px 4px 4px #F5F5F5;
  line-height: 1.5;
 }
 
 .detailtext{
-  font-size:11px;
-  font-weight:bold;
+  font-size:13px;
 }
 .btnInvest{
   border-radius: 5px 50px 10px 5px;
-  font-size:10px;
+  font-size:12px;
 }
 .btntabs:hover{
  background-color:rgba(0, 0, 0, 0.12);
  border:none;
+ font-weight:bold;
 }
 .text-grayshade{
   color:#8F8787;
@@ -213,11 +212,8 @@ position:relative;
 font-size:16px;
   }
 .btntabs
-{
-  margin-bottom:1rem;
-  
-}
-
+{  margin-bottom:1rem;
+ }
 #nav-menu {
   padding-top: 2rem;
 }

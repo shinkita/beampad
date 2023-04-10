@@ -1,6 +1,9 @@
 .header {
   @apply bg-theme-light py-[14px] px-4 md:px-0 md:py-[9px];
 }
+.mobileheader{
+  @apply bg-white py-[14px] px-4 md:px-0 md:py-[9px] mb-1;
+}
 
 // navbar items
 .navbar {
@@ -16,23 +19,25 @@
 }
 
 .navbar-nav {
-  @apply text-center md:text-left;
+  @apply md:text-center sm:text-left;
+}
+.mbnavbar{
+  @apply mb-2 text-left; 
 }
 
 #nav-menu {
   @apply w-full overflow-hidden md:max-h-full md:w-auto;
 }
-
 .nav-item {
-  @apply lg:mx-3;
+  @apply lg:mx-3 md:bg-theme-light sm:bg-stone-200;
 
   select:focus {
     box-shadow: none;
+    
   }
 }
-
 .nav-link {
-  @apply py-3 px-2 font-primary text-base font-bold  text-primary transition hover:text-black md:py-4 lg:px-3;
+  @apply py-3 px-2 font-primary text-base font-bold  text-primary transition  hover:text-black md:py-4 lg:px-3 ;
 
   &-active {
     @apply text-primary;

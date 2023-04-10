@@ -9,7 +9,7 @@ return (
  {menuItem.map((Val) => {
      return (
        <div
-         className="col-12 mb-8 sm:col-6 lg:col-4 py-3 border-0"
+         className="col-12 mb-8 sm:col-6 lg:col-4 py-4 px-4 border-0"
          key={Val.id}
        >
          <div className="card-img-top text-center border-emerald-200">
@@ -29,14 +29,14 @@ return (
                     </span>
                     <span className="timer flex items-center"><Image src="/images/TimeMachine.svg"
                     alt="icon"
-                    width={8}
-                    height={8}/>{Val.days}</span>
+                    width={14}
+                    height={14}/>{Val.days}</span>
          </div>
          <div className="card-body listDetails">
-           <h6 className="card-title text-default line-clamp-3 pt-1 pb-2">
+           <h5 className="card-title text-default pt-1 pb-2">
              {Val.title} 
             
-           </h6>
+           </h5>
            <p className="text-default flex">
            <Image src="/images/location.svg"
                     alt="icon"
@@ -58,8 +58,8 @@ return (
           <div className="flex   justify-between align-middle">
            <span> <span className="font-bold text-grayshade">Total Supply :  &nbsp; </span><span className="text-primary font-bold">{Val.totalSupply}</span>
 
-            </span><span> <Link className="btn bg-primary  text-white z-0 py-[4px] btnInvest ml-2" href="#" rel="">
-              Invest Now
+            </span><span> <Link className="btn bg-primary font-bold text-white z-0 py-[8px] btnInvest ml-2" href="#" rel="">
+             {Val.btntext}
             </Link> </span>
            </div>
          </div>

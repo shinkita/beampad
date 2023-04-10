@@ -57,7 +57,7 @@
   {
     "id":"1",
     "listing_type":"Live IRO",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -65,14 +65,15 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Core",
-     "ListingImage":"/images/property-2.jpg",
+     "ListingImage":"/images/property-1.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/core.png"
+     "typeOfferingIcon":"/images/core.png",
+     "btntext":"Invest Now"
   },
   {
     "id":"2",
     "listing_type":"Live IRO",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -80,14 +81,15 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Core",
-     "ListingImage":"/images/property-2.jpg",
+     "ListingImage":"/images/property-2.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/core.png"
+     "typeOfferingIcon":"/images/core.png",
+     "btntext":"Invest Now"
   },
   {
     "id":"3",
     "listing_type":"Completed IRO",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -95,14 +97,15 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Partner",
-     "ListingImage":"/images/property-3.jpg",
+     "ListingImage":"/images/property-1.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/partner.png"
+     "typeOfferingIcon":"/images/partner.png",
+     "btntext":"View Details"
   },
   {
     "id":"4",
     "listing_type":"Live IRO",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -110,14 +113,15 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Core",
-     "ListingImage":"/images/property-2.jpg",
+     "ListingImage":"/images/property-1.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/core.png"
+     "typeOfferingIcon":"/images/core.png",
+     "btntext":"Invest Now"
   },
   {
     "id":"5",
     "listing_type":"Exited Position",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -125,14 +129,15 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Partner",
-     "ListingImage":"/images/property-2.jpg",
+     "ListingImage":"/images/property-1.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/partner.png"
+     "typeOfferingIcon":"/images/partner.png",
+     "btntext":"View Details"
   },
   {
     "id":"6",
     "listing_type":"Live IRO",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -140,14 +145,15 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Core",
-     "ListingImage":"/images/property-2.jpg",
+     "ListingImage":"/images/property-1.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/core.png"
+     "typeOfferingIcon":"/images/core.png",
+     "btntext":"Invest Now"
   },
   {
     "id":"7",
     "listing_type":"Upcoming IRO",
-     "title":"SC Plus- Silicon Oasis Property Identified",
+     "title":"SC Plus- Silicon Oasis Property",
      "location":"Dubai, United Arab Emirates",
      "bhk":"3 BHK apartment",
      "DividendPercentage":"8.32%",
@@ -155,9 +161,10 @@
      "totalSupply":"5000 REATs",
      "reats":"608.90",
      "OfferingType":"Partner",
-     "ListingImage":"/images/property-3.jpg",
+     "ListingImage":"/images/property-1.webp",
      "days":"20 days left",
-     "typeOfferingIcon":"/images/partner.png"
+     "typeOfferingIcon":"/images/partner.png",
+     "btntext":"Notify Me"
   }
   ]
 }
