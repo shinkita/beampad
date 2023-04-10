@@ -58,7 +58,7 @@ return (
           <div className="flex   justify-between align-middle">
            <span> <span className="font-bold text-grayshade">Total Supply :  &nbsp; </span><span className="text-primary font-bold">{Val.totalSupply}</span>
 
-            </span><span> <Link className="btn bg-primary font-bold text-white z-0 py-[8px] btnInvest ml-2" href="#" rel="">
+            </span><span> <Link className="btn bg-primary font-bold text-white text-medium z-0 py-[8px] btnInvest ml-2 " href="#" rel="">
              {Val.btntext}
             </Link> </span>
            </div>
