@@ -4,10 +4,12 @@ import Link from "next/link";
 import React, { useState,useEffect } from "react";
 import Listing from "./Listing";
 import Listingtabs from "./Listingtabs";
+import MyContext from "./MyContext";
 const Posts = ({ posts }) => {
   // const [item, setItem] = useState(config.listingdata);
   const { blog_folder, summary_length } = config.settings;
   const [openTab, setOpenTab] = React.useState(1);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
   // const filterItem = (curcat) => {
   //   const newItem = config.menuItems.filter((newVal) => {
@@ -43,21 +45,24 @@ const items =config.listingdata;
   };
   
   useEffect(() => {
-    console.log(menuItem);
-  }, [menuItem])
+   }, [menuItem])
 
   return (
+    
     <div className="container pb-0">
+  
      <div className="row pt-10">
+     <MyContext.Provider value={{ buttons, filter }}>
      {/* <Listingtabs activeTab={activeTab} onTabClick={setActiveTab} /> */}
-
     <Listingtabs  button={buttons} filter={filter}/>
           {/* <Listingtabs
             filterItem={filterItem}
             setItem={setItem}
             menuItems={config.menuItems}
           /> */}
+       </MyContext.Provider>
           </div>
+       
           <div className="row ListingData pt-5">
       
         <Listing menuItem={menuItem} />  
@@ -96,6 +101,7 @@ const items =config.listingdata;
     
    
     </div>
+
   );
 };
 
