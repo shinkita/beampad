@@ -4,8 +4,8 @@ import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import About from "@layouts/About";
 import Pricing from "@layouts/Pricing";
+import Userdashboard from "@layouts/userDashboard"
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
-
 // for all regular pages
 const RegularPages = ({ data }) => {
   const { title, meta_title, description, image, noindex, canonical, layout } =
@@ -27,7 +27,9 @@ const RegularPages = ({ data }) => {
         <Contact data={data} />
       ) : layout === "pricing" ? (
         <Pricing data={data} />
-      ) : layout === "about" ? (
+      ) :layout==="userdashboard"?(
+      <Userdashboard data={data}/>
+      ): layout === "about" ? (
         <About data={data} />
       ) : (
         <Default data={data} />
