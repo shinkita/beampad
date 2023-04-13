@@ -22,16 +22,16 @@ const RegularPages = ({ data }) => {
       canonical={canonical}
     >
       {layout === "404" ? (
-        <NotFound data={data} />
-      ) : layout === "contact" ? (
-        <Contact data={data} />
-      ) : layout === "pricing" ? (
-        <Pricing data={data} />
-      ) : layout === "about" ? (
-        <About data={data} />
-      ) : (
-        <Default data={data} />
-      )}
+  <NotFound data={data} />
+) : layout === "contact" ? (
+  <Contact data={data} />
+) : layout === "pricing" ? (
+  <Pricing data={data} />
+) : layout === "about" ? (
+  <About data={data} />
+) : (
+  <Default data={data} />
+)}
     </Base>
   );
 };

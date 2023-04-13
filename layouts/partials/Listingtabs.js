@@ -8,12 +8,14 @@ const Listingtabs = ({button,filter}) => {
    return (
     <>
 
-<div className="ltabs">
+<div className="ltabs mx-[20px]">
       {button.map((cat, i) => {
         return (
+       
           <button onClick={() => filter(cat)} className="btntabs active border-none text-black bg-zinc-50 p-2 px-2 mr-5 btn" key={i}>
             {cat}
           </button>
+          
         );
       })}
     </div>

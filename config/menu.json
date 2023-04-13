@@ -71,5 +71,26 @@
         }
       ]
     }
-  ]
+  ],
+      "usermain": [
+      {
+        "name": "Portfolio",
+        "url": "/userpanel/home"
+      },
+      {
+        "name": "Invest",
+        "url": "/userpanel/invest"
+      },
+      {
+        "name": "Transaction History",
+        "url": "/userpanel/transaction"
+      },
+      
+      {
+        "name": "Learn",
+        "url": "/"
+      }
+      
+    ]
+  
 }

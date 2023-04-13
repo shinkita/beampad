@@ -4,33 +4,36 @@ import menu from "@config/menu.json";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import { RiUser3Fill} from "react-icons/ri";
+
 
 const Header = () => {
   //router
   const router = useRouter();
 
   // distructuring the main menu from menu object
-  const { main } = menu;
+  const { usermain } = menu;
 
   // states declaration
   const [navOpen, setNavOpen] = useState(false);
-
+  const [isOpen, setIsOpen] = useState(false);
+ const toggleDropdown = () => setIsOpen(!isOpen);
   // logo source
   const { logo } = config.site;
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header className="md:header w-auto fixed top-0 left-0 right-0 z-10 sm: mbtheme">
-      <nav className="navbar md:container-fluid md:mx-auto sm: pr-0 ">
+    <header>
+      <nav className="navbar md:container-fluid md:mx-auto border-b-2 border-slate-100">
         {/* logo */}
-        <div className="order-0 md:pl-[20px] sm: pl-[0px]">
+        <div className="order-0">
           <Logo src={logo} />
         </div>
 
         {/* navbar toggler */}
         <button
           id="show-button"
-          className="order-2 flex cursor-pointer items-center pr-[16px] md:hidden md:order-1  "
+          className="order-2 flex cursor-pointer items-center md:hidden md:order-1"
           onClick={() => setNavOpen(!navOpen)}
         >
           {navOpen ? (
@@ -54,14 +57,14 @@ const Header = () => {
           id="nav-menu"
           className={`order-3 md:order-1 ${
             navOpen ? "max-h-[1000px]" : "max-h-0"
-          }`} 
+          }`}
         >
           
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
-            {main.map((menu, i) => (
+            {usermain.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
-                  <li className="md:nav-item nav-dropdown group relative sm:mbnav-item">
+                  <li className="md:nav-itemuser nav-dropdown group relative">
                     <span className="nav-link inline-flex items-center">
                       {menu.name}
                       <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -82,7 +85,7 @@ const Header = () => {
                     </ul>
                   </li>
                 ) : (
-                  <li className="nav-item">
+                  <li className="nav-itemuser">
                     <Link
                       href={menu.url}
                       onClick={() => setNavOpen(false)}
@@ -110,12 +113,22 @@ const Header = () => {
           </ul>
         </div>
         {enable && (
-          <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-            <Link className="btn btn-primary z-0 py-[14px] mx-[20px]" href={link} rel="">
-              {label}
-            </Link>
+          <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0  mr-[20px] md:flex md:order-2">
+           
+           <div className="dropdown">
+      <button className="dropdown-toggle flex  items-center font-base font-bold" onClick={toggleDropdown}>
+      <RiUser3Fill></RiUser3Fill> &nbsp;John Doe
+      </button>
+      {isOpen && (
+        <div className="dropdown-menu">
+          <a href="#">Profile</a>
+          <a href="#">Logout</a>
+        </div>
+      )}
+    </div>
           </div>
         )}
+      
       </nav>
     </header>
   );

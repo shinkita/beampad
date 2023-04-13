@@ -19,7 +19,7 @@ const Home = ({ frontmatter }) => {
    
           <section className="bg-theme-light">          
         
-            <div className="container">
+            <div>
               <div className="sliderWrapper flex justify-evenly items-center">
              
               <div className="items-center col-md-6">
@@ -56,7 +56,7 @@ const Home = ({ frontmatter }) => {
           </section>
             {/* Features */}
       <section className="section">
-        <div className="container">
+        <div>
           <div className="text-center">
             <h2 className="text-primary text-center">WHY CHOOSE US</h2>
           </div>

@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: dfgd
 layout: pricing
 draft: false
 plans:

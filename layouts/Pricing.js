@@ -9,6 +9,7 @@ function Pricing({ data }) {
     <>
       <section className="section pb-0">
         <div className="container">
+        <h1>hello</h1>
           <h1 className="text-center font-normal">{title}</h1>
           <div className="section row -mt-10 justify-center md:mt-0">
             {plans.map((plan, index) => (
@@ -34,7 +35,7 @@ function Pricing({ data }) {
                       </li>
                     ))}
                   </ul>
-                  <Link
+                  {/* <Link
                     className={`btn mt-5 ${
                       plan.recommended ? "btn-primary" : "btn-outline-primary"
                     }`}
@@ -42,7 +43,7 @@ function Pricing({ data }) {
                     rel={plan.button.rel}
                   >
                     {plan.button.label}
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             ))}

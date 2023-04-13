@@ -18,23 +18,22 @@
   "nav_button": {
     "enable": true,
     "label": "Connect Wallet",
-    "link": "#"
+    "link": "#",
+    "investLabel":"Join Now"
   },
   
-
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
     "copyright": "© 2023 Beampad | All Rights Reserved"
   },
-
   "metadata": {
     "meta_author": "Beampad",
     "meta_image": "",
     "meta_description": "Beampad"
   },
-
+  
   "menuItems":[
     {
     "CategoryId":"1",
@@ -167,6 +166,34 @@
      "btntext":"Notify Me"
   }
   ]
+  ,
+    "properties": [
+      {  
+        "id":"1",
+        "propertyTitle": "Individual 7 Tower",
+        "thumbnail": "/images/property-2.webp",
+        "location": "Dubai, United Arab Emirates",
+        "rentalType": "Monthly",
+        "ownerSince": "2012",
+        "rentalStatus": "active",
+        "monthlyRent":"12000$",
+        "dividends":"45533",
+        "Equity":"1%"
+      },
+      {
+        "id":"2",
+        "propertyTitle": "Individual 7 Tower",
+        "thumbnail": "/images/property-2.webp",
+        "location": "Dubai, United Arab Emirates",
+        "rentalType": "Monthly",
+        "ownerSince": "2012",
+        "rentalStatus": "active",
+        "monthlyRent":"12000$",
+        "dividends":"45533",
+        "Equity":"1%"
+      }
+    ]
+  
 }
 
 

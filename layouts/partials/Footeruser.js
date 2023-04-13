@@ -6,7 +6,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+const Footeruser = () => {
   const { copyright, footer_content } = config.params;
   const { footer } = menu;
   return (
@@ -55,4 +55,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footeruser;
