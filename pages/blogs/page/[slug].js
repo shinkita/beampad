@@ -31,7 +31,7 @@ const blogPagination = ({ postIndex, posts, currentPage, pagination }) => {
           
             </div>
             <div className="bannerTitle pr-5">
-            {markdownify(title, "h2", "h2 text-center font-bold  text-primary")}
+            {markdownify(title, "h2", "h2 text-center font-bold  text-primary fontbase")}
             </div>
           
           </div>

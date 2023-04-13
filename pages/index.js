@@ -20,7 +20,7 @@ const Home = ({ frontmatter }) => {
           <section className="bg-theme-light">          
         
             <div>
-              <div className="sliderWrapper flex justify-evenly items-center">
+              <div className="sliderWrapper flex justify-evenly items-center sm: mt-[80px] p-10">
              
               <div className="items-center col-md-6">
               <h2 className="font-bold text-primary uppercase">The Smartest Way to Invest
