@@ -23,7 +23,7 @@ const Header = () => {
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header>
+    <header className="md:w-auto fixed top-0 left-0 right-0 z-10 sm:  mbtheme">
       <nav className="navbar md:container-fluid md:mx-auto border-b-2 border-slate-100">
         {/* logo */}
         <div className="order-0">

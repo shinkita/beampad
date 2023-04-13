@@ -3,7 +3,7 @@ const Portfolio=()=>{
 return(
     <>
       <div className="container">
-    <div className="row">
+    <div className="row pt-20">
     <h2>My Portfolio</h2>
     </div>
 
